@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../js/jquery-1.8.0.min.js"></script>
+</head>
+<body>
+<span id="userName"></span>
+<h1>欢迎使用</h1>
+<script>
+    $(function () {
+        $("#userName").html(localStorage.getItem("userName"));
+    })
+</script>
+</body>
+</html>
